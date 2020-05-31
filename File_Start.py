@@ -12,4 +12,8 @@ with open("sourav.txt", mode="r") as s_file:
     unique_words = set(all_words)
     print(len(all_words))
     print(len(unique_words))
+    with open('unique_words.txt', mode='w') as write_file:
+        for item in unique_words:
+            write_file.write(item)
+            write_file.write('\n')
 print("***Finished***")
