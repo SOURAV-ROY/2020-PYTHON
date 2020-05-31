@@ -9,5 +9,7 @@ with open("sourav.txt", mode="r") as s_file:
         # print(words)
         all_words += words
     # print(all_words)
+    unique_words = set(all_words)
     print(len(all_words))
+    print(len(unique_words))
 print("***Finished***")
