@@ -8,5 +8,6 @@ with open("sourav.txt", mode="r") as s_file:
         words = striped_line.split(" ")
         # print(words)
         all_words += words
-        print(all_words)
+    # print(all_words)
+    print(len(all_words))
 print("***Finished***")
