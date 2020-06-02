@@ -4,24 +4,27 @@ def method_name():
 
 class Person:
     def __init__(self, person_name, date_of_birth, ht):
-        self.name = person_name
-        self.date_of_birth = date_of_birth
-        self.height = ht
+        # Private Variable In Python ********************
+        self.__name = person_name
+        self.__date_of_birth = date_of_birth
+        self.__height = ht
+        # Public Variable in Python *********************
+        self.look = None
 
     def get_name(self):
-        return self.name
+        return self.__name
 
     def set_name(self, new_name):
         if self._has_any_number(new_name):
             print("Sorry Person Can't have any number")
             return
-        self.name = new_name
+        self.__name = new_name
 
     def _has_any_number(self, string):
         return "0" in string
 
     def get_summery(self):
-        return f"Name: {self.name}, DOB: {self.date_of_birth}, Height: {self.height}"
+        return f"Name: {self.__name}, DOB: {self.__date_of_birth}, Height: {self.__height}"
 
 
 method_name()
