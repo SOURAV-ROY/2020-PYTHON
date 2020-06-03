@@ -3,13 +3,16 @@ def method_name():
 
 
 class Person:
-    def __init__(self, person_name: str, date_of_year: int, ht_inches: int = None):
+    def __init__(self, person_name: str, year_of_birth: int, ht_inches: int = None):
         # Private Variable In Python ********************
         self.__name = person_name
-        self.__date_of_birth = date_of_year
+        self.__date_of_birth = year_of_birth
         self.__height = ht_inches
         # Public Variable in Python *********************
         self.look = None
+
+    def get_year_of_birth(self):
+        return self.__date_of_birth
 
     def get_name(self):
         return self.__name
@@ -27,13 +30,27 @@ class Person:
         return f"Name: {self.__name}, DOB: {self.__date_of_birth}, Height: {self.__height}"
 
 
-method_name()
-person_summery = Person("First Person", 1994, 70)
-print(person_summery.get_summery())
-print(person_summery.look)
+# method_name()
+# person_summery = Person("First Person", 1994, 70)
+# print(person_summery.get_summery())
+# print(person_summery.look)
+#
+# person_summery.set_name("Sourav Chandra Roy")
+# print(person_summery.get_summery())
+#
+# person_summery.set_name('111100000111Sourav')
+# print(person_summery.get_summery())
 
-person_summery.set_name("Sourav Chandra Roy")
-print(person_summery.get_summery())
+person_list = [Person("First Person", 1992, 70),
+               Person("Sourav", 1993, 72),
+               Person("Roy", 1995, 60),
+               Person("First ", 1996, 50),
+               Person("Second", 1990, 40),
+               Person("Third", 1998, 30),
+               Person("Fourth", 1999, 80),
+               Person("Fifth", 2000, 75),
+               Person("Sixth", 2020, 75)]
 
-person_summery.set_name('111100000111Sourav')
-print(person_summery.get_summery())
+for person in person_list:
+    if person.get_year_of_birth() is not None and person.get_year_of_birth() >= 1995:
+        print(person.get_summery())
