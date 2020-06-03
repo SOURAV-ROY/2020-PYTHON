@@ -3,11 +3,11 @@ def method_name():
 
 
 class Person:
-    def __init__(self, person_name, date_of_birth, ht):
+    def __init__(self, person_name: str, date_of_year: int, ht_inches: int = None):
         # Private Variable In Python ********************
         self.__name = person_name
-        self.__date_of_birth = date_of_birth
-        self.__height = ht
+        self.__date_of_birth = date_of_year
+        self.__height = ht_inches
         # Public Variable in Python *********************
         self.look = None
 
@@ -28,8 +28,9 @@ class Person:
 
 
 method_name()
-person_summery = Person("First Person", "1996", "6 feet")
+person_summery = Person("First Person", 1994, 70)
 print(person_summery.get_summery())
+print(person_summery.look)
 
 person_summery.set_name("Sourav Chandra Roy")
 print(person_summery.get_summery())
