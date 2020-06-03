@@ -116,3 +116,4 @@ plainClass = WoWClass()
 plainClass.age = 22
 plainClass.movie = "Movie"
 print(plainClass.movie)
+print(plainClass.age)
