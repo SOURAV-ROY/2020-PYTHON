@@ -68,10 +68,15 @@ class Student(Person):
 
     def get_summery(self):
         # return f'Name: {self.get_name()}, ID: {self.id}, Email: {self.email}, Birth: {self.get_year_of_birth()}'
-        return f"Name: {self.get_name()}, Email: {self.email}, Birth: {self.get_year_of_birth()}"
+        return f"Name: {self.get_name()}, Email: {str(self.email)}, Birth: {self.get_year_of_birth()}"
+
+    def __str__(self):
+        return f"Name: {self.get_name()}, ID: {self.id} Email: {self.email}, Birth: {self.get_year_of_birth()}"
 
 
-student_summery = Student("Pangku", 2000, 'abc123', "pangku@gmail.com")
-print(student_summery.get_summery())
+student_summery = Student("Pangku", 2000, '456abc123', "pangku@gmail.com")
+# print(student_summery.get_summery())
+print(student_summery)
 student_summery.set_name("Sourav Roy")
-print(student_summery.get_summery())
+# print(student_summery.get_summery())
+print(student_summery)
