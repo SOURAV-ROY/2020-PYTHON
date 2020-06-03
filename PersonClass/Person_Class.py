@@ -26,7 +26,7 @@ class Person:
     def _has_any_number(self, string):
         return "0" in string
 
-    def get_summery(self):
+    def get_summary(self):
         pass
         # return f"Name: {self.__name}, " \
         #        f"DOB: {self.__date_of_birth}, " \
@@ -58,7 +58,7 @@ person_list = [Person("First Person", 1992, 70),
 # for person in person_list:
 #     # if person.get_year_of_birth() is not None and person.get_year_of_birth() >= 1995:
 #     if person.get_year_of_birth() >= 1995:
-#         print(person.get_summery())
+#         print(person.get_summary())
 
 
 class Student(Person):
@@ -67,25 +67,25 @@ class Student(Person):
         self.email = email_id
         self.id = student_id
 
-    def get_summery(self):
+    def get_summary(self):
         # return f'Name: {self.get_name()}, ID: {self.id}, Email: {self.email}, Birth: {self.get_year_of_birth()}'
         return f"Name: {self.get_name()}, ID: {self.id} Email: {str(self.email)}, Birth: {self.get_year_of_birth()}"
 
     def __str__(self):
-        return self.get_summery()
+        return self.get_summary()
         # return f"Name: {self.get_name()}, ID: {self.id} Email: {self.email}, Birth: {self.get_year_of_birth()}"
 
     def __repr__(self):
-        return self.get_summery()
+        return self.get_summary()
         # return f"Name: {self.get_name()}, ID: {self.id} Email: {self.email}, Birth: {self.get_year_of_birth()}"
 
 
-student_summery = Student("Pangku", 2000, '456abc123', "pangku@gmail.com")
-# print(student_summery.get_summery())
-print(student_summery)
-student_summery.set_name("Sourav Roy")
-# print(student_summery.get_summery())
-print(student_summery)
+student_summary = Student("Pangku", 2000, '456abc123', "pangku@gmail.com")
+# print(student_summery.get_summary())
+print(student_summary)
+student_summary.set_name("Sourav Roy")
+# print(student_summery.get_summary())
+print(student_summary)
 
 
 class Teacher(Person):
@@ -93,7 +93,7 @@ class Teacher(Person):
         super().__init__(person_name, year_of_birth)
         self.dept = department
 
-    def get_summery(self):
+    def get_summary(self):
         return f'{self.get_name()} Is A Teacher'
 
 
@@ -105,4 +105,14 @@ new_person_list = [
 
 for p in new_person_list:
     # print(p.get_name())
-    print(p.get_summery())
+    print(p.get_summary())
+
+
+class WoWClass:
+    pass
+
+
+plainClass = WoWClass()
+plainClass.age = 22
+plainClass.movie = "Movie"
+print(plainClass.movie)
