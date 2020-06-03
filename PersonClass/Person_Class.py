@@ -53,7 +53,25 @@ person_list = [Person("First Person", 1992, 70),
                Person("Fifth", 1971, 75),
                Person("Sixth", 2020, 75)]
 
-for person in person_list:
-    # if person.get_year_of_birth() is not None and person.get_year_of_birth() >= 1995:
-    if person.get_year_of_birth() >= 1995:
-        print(person.get_summery())
+
+# for person in person_list:
+#     # if person.get_year_of_birth() is not None and person.get_year_of_birth() >= 1995:
+#     if person.get_year_of_birth() >= 1995:
+#         print(person.get_summery())
+
+
+class Student(Person):
+    def __init__(self, person_name: str, year_of_birth: int, student_id: str, email_id: str):
+        super().__init__(person_name, year_of_birth)
+        self.email = email_id
+        self.id = student_id
+
+    def get_summery(self):
+        # return f'Name: {self.get_name()}, ID: {self.id}, Email: {self.email}, Birth: {self.get_year_of_birth()}'
+        return f"Name: {self.get_name()}, Email: {self.email}, Birth: {self.get_year_of_birth()}"
+
+
+student_summery = Student("Pangku", 2000, 'abc123', "pangku@gmail.com")
+print(student_summery.get_summery())
+student_summery.set_name("Sourav Roy")
+print(student_summery.get_summery())
