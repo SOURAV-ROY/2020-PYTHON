@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404bf1f1-15cf-4fbe-858a-b538ef96324d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PersonClass/Person_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/PersonClass/Person_Class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,7 +200,7 @@
       <workItem from="1590943684985" duration="7203000" />
       <workItem from="1591022403437" duration="4213000" />
       <workItem from="1591111767256" duration="4046000" />
-      <workItem from="1591195286757" duration="7209000" />
+      <workItem from="1591195286757" duration="7533000" />
     </task>
     <servers />
   </component>
@@ -237,7 +236,7 @@
     <SUITE FILE_PATH="coverage/2020$Condition.coverage" NAME="Condition Coverage Results" MODIFIED="1590688985410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Loop_List.coverage" NAME="Loop_List Coverage Results" MODIFIED="1590944307852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Condition.coverage" NAME="Condition Coverage Results" MODIFIED="1590810963084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2020_PYTHON$Person_Class.coverage" NAME="Person_Class Coverage Results" MODIFIED="1591205277753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonClass" />
+    <SUITE FILE_PATH="coverage/2020_PYTHON$Person_Class.coverage" NAME="Person_Class Coverage Results" MODIFIED="1591205513716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonClass" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Debug_Important.coverage" NAME="Debug_Important Coverage Results" MODIFIED="1590950075889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020$List.coverage" NAME="List Coverage Results" MODIFIED="1590680515892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Even_Odd.coverage" NAME="Even_Odd Coverage Results" MODIFIED="1590941946436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
