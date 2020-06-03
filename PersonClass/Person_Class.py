@@ -27,7 +27,9 @@ class Person:
         return "0" in string
 
     def get_summery(self):
-        return f"Name: {self.__name}, DOB: {self.__date_of_birth}, Height: {self.__height}"
+        return f"Name: {self.__name}, " \
+               f"DOB: {self.__date_of_birth}, " \
+               f"Height: {self.__height if self.__height is not None else '**Invalid**'} "
 
 
 # method_name()
@@ -43,14 +45,15 @@ class Person:
 
 person_list = [Person("First Person", 1992, 70),
                Person("Sourav", 1993, 72),
-               Person("Roy", 1995, 60),
+               Person("Roy", 1995),
                Person("First ", 1996, 50),
-               Person("Second", 1990, 40),
-               Person("Third", 1998, 30),
-               Person("Fourth", 1999, 80),
-               Person("Fifth", 2000, 75),
+               Person("Second", 1997),
+               Person("Third", 1998),
+               Person("Fourth", 1991, 80),
+               Person("Fifth", 1971, 75),
                Person("Sixth", 2020, 75)]
 
 for person in person_list:
-    if person.get_year_of_birth() is not None and person.get_year_of_birth() >= 1995:
+    # if person.get_year_of_birth() is not None and person.get_year_of_birth() >= 1995:
+    if person.get_year_of_birth() >= 1995:
         print(person.get_summery())
