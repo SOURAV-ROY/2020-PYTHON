@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404bf1f1-15cf-4fbe-858a-b538ef96324d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList_Array/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList_Array/LinkedList.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,7 +205,7 @@
       <workItem from="1592065032942" duration="239000" />
       <workItem from="1592068213302" duration="411000" />
       <workItem from="1592214977993" duration="1562000" />
-      <workItem from="1592244751663" duration="2120000" />
+      <workItem from="1592244751663" duration="2477000" />
     </task>
     <servers />
   </component>
@@ -248,7 +247,7 @@
     <SUITE FILE_PATH="coverage/2020$List.coverage" NAME="List Coverage Results" MODIFIED="1590680515892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Flag.coverage" NAME="Flag Coverage Results" MODIFIED="1592215209078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$File_Start.coverage" NAME="File_Start Coverage Results" MODIFIED="1590948244365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2020_PYTHON$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1592246879401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedList_Array" />
+    <SUITE FILE_PATH="coverage/2020_PYTHON$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1592247220867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedList_Array" />
     <SUITE FILE_PATH="coverage/2020$Sum.coverage" NAME="Sum Coverage Results" MODIFIED="1590421780949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1590340007381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

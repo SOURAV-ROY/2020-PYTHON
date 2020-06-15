@@ -42,6 +42,10 @@ class DoubleLinkedList:
                 # break
             node = node.next
 
+    def remove_first(self):
+        if self.head is not None:
+            self.__remove_node(self.head)
+
     def remove_last(self):
         if self.tail is not None:
             self.__remove_node(self.tail)
@@ -68,12 +72,18 @@ my_list.add(2)
 my_list.add(4)
 print(my_list)
 print(my_list.size)
+
 my_list.remove_last()
+print(my_list)
+print(my_list.size)
 # my_list.remove(5)
 # my_list.remove(1)
 # my_list.remove(2)
-print(my_list)
-print(my_list.size)
-my_list.remove_last()
+# print(my_list)
+# print(my_list.size)
+# my_list.remove_last()
+# print(my_list)
+# print(my_list.size)
+my_list.remove_first()
 print(my_list)
 print(my_list.size)
