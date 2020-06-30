@@ -4,8 +4,8 @@ user_num = int(input('Upper Limit For Prime: '))
 
 
 def is_prime(num):
-    for i in range(2, int(math.sqrt(num) + 1)):
-        if num % i == 0:
+    for p in range(2, int(math.sqrt(num) + 1)):
+        if num % p == 0:
             return False
     return True
 
