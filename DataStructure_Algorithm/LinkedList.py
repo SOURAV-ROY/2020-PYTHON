@@ -50,6 +50,12 @@ class DoubleLinkedList:
         if self.tail is not None:
             self.__remove_node(self.tail)
 
+    def front(self):
+        return self.head.val
+
+    def back(self):
+        return self.tail.val
+
     def __str__(self):
         vals = []
         node = self.head
@@ -57,7 +63,6 @@ class DoubleLinkedList:
             vals.append(node.val)
             node = node.next
         return f"[{', '.join(str(val) for val in vals)}]"
-
 
 # my_list = DoubleLinkedList()
 # my_list.add(1)
