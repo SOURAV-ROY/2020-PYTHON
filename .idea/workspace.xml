@@ -4,6 +4,7 @@
     <list default="true" id="404bf1f1-15cf-4fbe-858a-b538ef96324d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure_Algorithm/Stack_Queue_BT_BST_DFS_BFS_TT.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure_Algorithm/Stack_Queue_BT_BST_DFS_BFS_TT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructure_Algorithm/Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure_Algorithm/Tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Stack_Queue_BT_BST_DFS_BFS_TT">
+  <component name="RunManager" selected="Python.Tree">
     <configuration name="Flag" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,28 +130,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Person_Class" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2020" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PersonClass" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonClass/Person_Class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Prime_Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2020" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,13 +174,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2020" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructure_Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructure_Algorithm/Tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tree" />
         <item itemvalue="Python.Stack_Queue_BT_BST_DFS_BFS_TT" />
         <item itemvalue="Python.LinkedList" />
         <item itemvalue="Python.Prime_Number" />
         <item itemvalue="Python.Flag" />
-        <item itemvalue="Python.Person_Class" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +236,10 @@
       <workItem from="1592681879514" duration="58000" />
       <workItem from="1592682193831" duration="16000" />
       <workItem from="1593537384193" duration="5543000" />
-      <workItem from="1593671473944" duration="2745000" />
+      <workItem from="1593671473944" duration="5860000" />
+      <workItem from="1593679329325" duration="167000" />
+      <workItem from="1593679561344" duration="641000" />
+      <workItem from="1593698485192" duration="823000" />
     </task>
     <servers />
   </component>
@@ -284,6 +288,7 @@
     <SUITE FILE_PATH="coverage/2020_PYTHON$Debug_Important.coverage" NAME="Debug_Important Coverage Results" MODIFIED="1590950075889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Stack_Queue_BT_BST_DFS_BFS_TT.coverage" NAME="Stack_Queue_BT_BST_DFS_BFS_TT Coverage Results" MODIFIED="1593673673479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure_Algorithm" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Even_Odd.coverage" NAME="Even_Odd Coverage Results" MODIFIED="1590941946436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2020_PYTHON$Tree.coverage" NAME="Tree Coverage Results" MODIFIED="1593698940447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure_Algorithm" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$LinkedList__1_.coverage" NAME="LinkedList (1) Coverage Results" MODIFIED="1593539304226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure_Algorithm" />
     <SUITE FILE_PATH="coverage/2020$Condition.coverage" NAME="Condition Coverage Results" MODIFIED="1590688985410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020$List.coverage" NAME="List Coverage Results" MODIFIED="1590680515892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
