@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="404bf1f1-15cf-4fbe-858a-b538ef96324d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure_Algorithm/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure_Algorithm/LinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructure_Algorithm/Stack_Queue_BT_BST_DFS_BFS_TT.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure_Algorithm/Stack_Queue_BT_BST_DFS_BFS_TT.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -236,6 +235,7 @@
       <workItem from="1592681879514" duration="58000" />
       <workItem from="1592682193831" duration="16000" />
       <workItem from="1593537384193" duration="5543000" />
+      <workItem from="1593671473944" duration="2745000" />
     </task>
     <servers />
   </component>
@@ -282,7 +282,7 @@
     <SUITE FILE_PATH="coverage/2020_PYTHON$Condition.coverage" NAME="Condition Coverage Results" MODIFIED="1590810963084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Person_Class.coverage" NAME="Person_Class Coverage Results" MODIFIED="1591207990160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PersonClass" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Debug_Important.coverage" NAME="Debug_Important Coverage Results" MODIFIED="1590950075889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2020_PYTHON$Stack_Queue_BT_BST_DFS_BFS_TT.coverage" NAME="Stack_Queue_BT_BST_DFS_BFS_TT Coverage Results" MODIFIED="1593542344667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure_Algorithm" />
+    <SUITE FILE_PATH="coverage/2020_PYTHON$Stack_Queue_BT_BST_DFS_BFS_TT.coverage" NAME="Stack_Queue_BT_BST_DFS_BFS_TT Coverage Results" MODIFIED="1593673673479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure_Algorithm" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$Even_Odd.coverage" NAME="Even_Odd Coverage Results" MODIFIED="1590941946436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/2020_PYTHON$LinkedList__1_.coverage" NAME="LinkedList (1) Coverage Results" MODIFIED="1593539304226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructure_Algorithm" />
     <SUITE FILE_PATH="coverage/2020$Condition.coverage" NAME="Condition Coverage Results" MODIFIED="1590688985410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
