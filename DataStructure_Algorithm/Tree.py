@@ -67,6 +67,16 @@ class BST:
         tree_printer = BinaryTreePrinter()
         return tree_printer.get_tree_string(self.root)
 
+    def __in_order(self, node):
+        if node is None:
+            return
+        self.__in_order(node.left)
+        print(node.val, end=" ")
+        self.__in_order(node.right)
+
+    def in_order(self):
+        self.__in_order(self.root)
+
 
 # my_tree = BinaryTree()
 # for c in ['a', 'b', 'c', 'd', 'e', 'f', 'g']:
@@ -74,6 +84,8 @@ class BST:
 #     print(my_tree)
 
 bst = BST()
-for i in [4, 3, 2, 1, 55, 5, 34, 3]:
+# for i in [4, 3, 2, 1, 55, 5, 34, 3, 56, 57, 58]:
+for i in [8, 2, 1, 10, 100, 50, 40, 23, 16, 7, 9, 200, 150, 300]:
     bst.insert(i)
     print(bst)
+bst.in_order()
