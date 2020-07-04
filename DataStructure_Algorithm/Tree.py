@@ -1,4 +1,5 @@
 from DataStructure_Algorithm.Stack_Queue_BT_BST_DFS_BFS_TT import Queue
+from DataStructure_Algorithm.Stack_Queue_BT_BST_DFS_BFS_TT import Stack
 from DataStructure_Algorithm.BinaryTreePrinter import BinaryTreePrinter
 
 
@@ -77,6 +78,22 @@ class BST:
     def in_order(self):
         self.__in_order(self.root)
 
+    def contains(self, val):
+        nodes = Stack()
+        nodes.push(self.root)
+
+        while not nodes.is_empty():
+            node = nodes.pop()
+            if node.val == val:
+                return True
+            elif val < node.val:
+                if node.left is not None:
+                    nodes.push(node.left)
+            else:
+                if node.right is not None:
+                    nodes.push(node.right)
+        return False
+
 
 # my_tree = BinaryTree()
 # for c in ['a', 'b', 'c', 'd', 'e', 'f', 'g']:
@@ -89,3 +106,7 @@ for i in [8, 2, 1, 10, 100, 50, 40, 23, 16, 7, 9, 200, 150, 300]:
     bst.insert(i)
     print(bst)
 bst.in_order()
+print()
+# print("contains 10: ", bst.contains(10))
+print(f"Contains 10: {bst.contains(10)}")
+print(f"Contains 0: {bst.contains(0)}")
