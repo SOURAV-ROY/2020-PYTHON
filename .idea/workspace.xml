@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404bf1f1-15cf-4fbe-858a-b538ef96324d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructure_Algorithm/Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructure_Algorithm/Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -243,7 +241,7 @@
       <workItem from="1593787878661" duration="1198000" />
       <workItem from="1593877552536" duration="1822000" />
       <workItem from="1593883217168" duration="4503000" />
-      <workItem from="1593888714839" duration="1796000" />
+      <workItem from="1593888714839" duration="2094000" />
     </task>
     <servers />
   </component>
