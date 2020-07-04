@@ -37,6 +37,21 @@ class BinaryTree:
         tree_printer = BinaryTreePrinter()
         return tree_printer.get_tree_string(self.root)
 
+    def contains(self, val):
+        nodes = Stack()
+        nodes.push(self.root)
+
+        while not nodes.is_empty():
+            node = nodes.pop()
+            print("Checking Node: ", node.val)
+            if node.val == val:
+                return True
+            if node.right is not None:
+                nodes.push(node.right)
+            if node.left is not None:
+                nodes.push(node.left)
+        return False
+
 
 class BST:
     def __init__(self):
@@ -84,6 +99,7 @@ class BST:
 
         while not nodes.is_empty():
             node = nodes.pop()
+            print("Checking Node: ", node.val)
             if node.val == val:
                 return True
             elif val < node.val:
@@ -110,3 +126,13 @@ print()
 # print("contains 10: ", bst.contains(10))
 print(f"Contains 10: {bst.contains(10)}")
 print(f"Contains 0: {bst.contains(0)}")
+print(f"Contains 150: {bst.contains(150)}")
+
+dfs = BinaryTree()
+for i in [8, 2, 1, 10, 100, 50, 40, 23, 16, 7, 9, 200, 150, 400]:
+    dfs.insert(i)
+    print(dfs)
+print()
+print(f"Contains 10: {dfs.contains(10)}")
+print(f"Contains 0: {dfs.contains(0)}")
+print(f"Contains 150: {dfs.contains(150)}")
