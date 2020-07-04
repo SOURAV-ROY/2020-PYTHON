@@ -128,6 +128,7 @@ print(f"Contains 10: {bst.contains(10)}")
 print(f"Contains 0: {bst.contains(0)}")
 print(f"Contains 150: {bst.contains(150)}")
 
+
 dfs = BinaryTree()
 for i in [8, 2, 1, 10, 100, 50, 40, 23, 16, 7, 9, 200, 150, 400]:
     dfs.insert(i)
