@@ -2,6 +2,10 @@ def method_name():
     print('Sourav Roy')
 
 
+def _has_any_number(string):
+    return "0" in string
+
+
 class Person:
     def __init__(self, person_name: str, year_of_birth: int, ht_inches: int = None):
         # Private Variable In Python ********************
@@ -18,13 +22,10 @@ class Person:
         return self.__name
 
     def set_name(self, new_name):
-        if self._has_any_number(new_name):
+        if _has_any_number(new_name):
             print("Sorry Person Can't have any number")
             return
         self.__name = new_name
-
-    def _has_any_number(self, string):
-        return "0" in string
 
     def get_summary(self):
         pass
